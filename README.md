@@ -11,7 +11,7 @@ For this algorithm it is very important which point is chosen as the starting. S
 
 Run with 12 points: 
 ```bash
-npm start input1.txt
+npm start:class input1.txt
 ```
 
 Run with 100 points:

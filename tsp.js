@@ -95,7 +95,7 @@ export default class TSP {
     info() {
         console.log('Min route: ', TSP.printRoute(this.points, this.minRoute));
         console.log('Min distance: ', this.distance);
-        console.log('Execution time: ', this.executionTime);
+        console.log('Execution time: ', this.executionTime + ' ms');
     }
 
     static printRoute(points, route) {

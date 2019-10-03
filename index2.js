@@ -115,7 +115,7 @@ TSP.printRoute = function(points, route) {
 TSP.prototype.info = function() {
     console.log('Min route: ', TSP.printRoute(this.points, this.minRoute));
     console.log('Min distance: ', this.distance);
-    console.log('Execution time: ', this.executionTime);
+    console.log('Execution time: ', this.executionTime + ' ms');
 };
 
 
@@ -131,7 +131,9 @@ if (process.argv.length >= 3) {
     }
 }
 
-fs.readFile(inputFile, "utf8", (err, data) => {
+const path = './data/' + inputFile;
+
+fs.readFile(path, "utf8", (err, data) => {
     if (err) {
         throw err;
     }

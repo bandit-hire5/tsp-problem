@@ -13,7 +13,9 @@ if (process.argv.length >= 3) {
     }
 }
 
-fs.readFile(inputFile, "utf8", (err, data) => {
+const path = './data/' + inputFile;
+
+fs.readFile(path, "utf8", (err, data) => {
     if (err) {
         throw err;
     }
