@@ -9,6 +9,10 @@ For this algorithm it is very important which point is chosen as the starting. S
 
 ### How to use?
 
+```bash
+npm install
+```
+
 Run with 12 points: 
 ```bash
 npm run start:class input1.txt
