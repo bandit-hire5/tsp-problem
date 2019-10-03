@@ -24,7 +24,7 @@ Run with 200 points:
 npm run start:class input3.txt
 ```
 
-Also you can run the similar commands:
+Also you can to run the similar commands:
 ```bash
 npm run start:func input1.txt
 npm run start:func input2.txt
