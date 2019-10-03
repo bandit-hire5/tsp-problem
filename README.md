@@ -11,15 +11,22 @@ For this algorithm it is very important which point is chosen as the starting. S
 
 Run with 12 points: 
 ```bash
-npm start:class input1.txt
+npm run start:class input1.txt
 ```
 
 Run with 100 points:
 ```bash
-npm start input2.txt
+npm run start:class input2.txt
 ```
 
 Run with 200 points:
 ```bash
-npm start input3.txt
+npm run start:class input3.txt
+```
+
+Also you can run the similar commands:
+```bash
+npm run start:func input1.txt
+npm run start:func input2.txt
+npm run start:func input3.txt
 ```
